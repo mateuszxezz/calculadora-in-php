@@ -47,6 +47,7 @@ $calculater = "+";
                 <option value="/">/</option>
             </select>
             <input type="submit" value="Calculate">
+             <p>the result is <?=$result?></p>
         </form>
     </div>
 </body>
