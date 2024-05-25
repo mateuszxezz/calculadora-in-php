@@ -1,23 +1,23 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    
-  </head>
-  <body>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
     <div class="container">
-      <form action="" method="post">
-    <p>Number1</p>
-    <input type="number" name="number1">
-    <p>Number2</p>
-    <input type="number" name="number2">
-        <select name="calculater">
-          <option value="+">+</option>
-          <option value="-">-</option>
-          <option value="*">*</option>
-          <option value="/">/</option>
-        </select>
-        <input type="submit" value="calculater">
-        <p>the result is <?=$result?></p>
-      </form>
+        <form action="process.php" method="post">
+            <p>Number1</p>
+            <input type="number" name="number1">
+            <p>Number2</p>
+            <input type="number" name="number2">
+            <select name="calculater">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="submit" value="Calculate">
+        </form>
     </div>
-  </body>
+</body>
 </html>
